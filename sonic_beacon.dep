@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3084017462</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\frequency_detection.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\sonic_beacon.d90</file>
+      <file>$PROJ_DIR$\delay.c</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\eeprom.c</file>
+      <file>$PROJ_DIR$\eeprom.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.r90</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iotiny85.inc</file>
+      <file>$PROJ_DIR$\Debug\Obj\sonic_beacon.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\filter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeout_timer.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\eeprom.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\handlers.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\filter.r90</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\handlers.c</file>
+      <file>$PROJ_DIR$\sonic_beacon.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\frequency_detection.pbi</file>
+      <file>$PROJ_DIR$\timeout_timer.c</file>
+      <file>$PROJ_DIR$\music.h</file>
+      <file>$PROJ_DIR$\filter.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\filter.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\signal_detection.r90</file>
+      <file>$PROJ_DIR$\signal_detection.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\frequency_detection.h</file>
+      <file>$PROJ_DIR$\signal_detection.h</file>
+      <file>$PROJ_DIR$\timeout_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeout_timer.pbi</file>
+      <file>$PROJ_DIR$\music.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\handlers.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\handlers.pbi</file>
+      <file>$PROJ_DIR$\pwm.h</file>
+      <file>$PROJ_DIR$\hal.h</file>
+      <file>$PROJ_DIR$\pin_defs.h</file>
+      <file>$PROJ_DIR$\input.h</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1t-ec_nomul-n.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\adc.c</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgtiny85.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1toim.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\music.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\signal_detection.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iotiny85.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1t-ec_nomul-n.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\eeprom.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\frequency_detection.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\music.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwm.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\sonic_beacon.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\frequency_detection.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 57 55 44 39 17 24 51 43 8 28 36 56 16 50 54 29 41</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 41 56 57 44 24 43 55 50 51 36 39 7 54 29 8 16 17 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sonic_beacon.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 47 48 6 60 61 14 62 63 26 9 11 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 56 57 50 3 24 51 43 55 16</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 3 56 57 44 24 43 55 50 51 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 44 50 56 24 51 43 55</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 56 57 44 24 43 55 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\handlers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 54 7 8 36</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 36 7 54 29 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sonic_beacon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 16 40 41 44 7 32 38 50 31 22 3 5 57 24 51 43 55 54 29 8 30</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30 41 56 57 44 24 43 55 50 51 31 32 22 40 7 54 29 8 3 38 5 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timeout_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 56 54 7 57 24 43 36 44 55 29 8 32 50</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32 56 57 44 24 43 55 50 51 36 7 54 29 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\filter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 56 44 28 17 57 45 24 51 43 55 23</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23 56 57 44 24 43 55 50 51 45 28 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\signal_detection.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 8 50 29 36 56 54 39 16 41 57 24 51 43 55 7 31</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 31 41 56 57 44 24 43 55 50 51 39 7 54 29 8 36 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\music.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 56 57 50 22 24 51 43 55 38 3</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 22 56 57 44 24 43 55 50 51 38 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 29 56 44 40 54 36 7 57 24 51 43 55 38 8</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 38 56 57 44 24 43 55 50 51 36 40 7 54 29 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 56 16 54 29 50 7 8 57 24 51 43 55</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 7 54 29 8 16 56 57 44 24 43 55 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\frequency_detection.c</file>
+      <file>$PROJ_DIR$\Release\Exe\sonic_beacon.d90</file>
+      <file>$PROJ_DIR$\Release\Exe\eeprom.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\signal_detection.r90</file>
+      <file>$PROJ_DIR$\Release\Exe\sonic_beacon.elf</file>
+      <file>$PROJ_DIR$\Release\Obj\sonic_beacon.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\timeout_timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\pwm.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\handlers.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\frequency_detection.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\eeprom.r90</file>
+      <file>$PROJ_DIR$\delay.c</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\eeprom.c</file>
+      <file>$PROJ_DIR$\eeprom.h</file>
+      <file>$PROJ_DIR$\Release\Obj\delay.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iotiny85.inc</file>
+      <file>$PROJ_DIR$\Release\Obj\frequency_detection.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\Obj\signal_detection.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Release\Obj\music.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\sonic_beacon.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\eeprom.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\flash.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\music.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\sonic_beacon.r90</file>
+      <file>$PROJ_DIR$\Release\Exe\sonic_beacon.a90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgtiny45.xcl</file>
+      <file>$PROJ_DIR$\Release\Obj\delay.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\pwm.r90</file>
+      <file>$TOOLKIT_DIR$\config\lnktiny85t.xcl</file>
+      <file>$PROJ_DIR$\Release\Exe\sonic_beacon.hex</file>
+      <file>$PROJ_DIR$\Release\Obj\handlers.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\timeout_timer.r90</file>
+      <file>$PROJ_DIR$\handlers.c</file>
+      <file>$PROJ_DIR$\sonic_beacon.c</file>
+      <file>$PROJ_DIR$\timeout_timer.c</file>
+      <file>$PROJ_DIR$\music.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\signal_detection.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\frequency_detection.h</file>
+      <file>$PROJ_DIR$\signal_detection.h</file>
+      <file>$PROJ_DIR$\timeout_timer.h</file>
+      <file>$PROJ_DIR$\music.c</file>
+      <file>$PROJ_DIR$\handlers.h</file>
+      <file>$PROJ_DIR$\pwm.h</file>
+      <file>$PROJ_DIR$\hal.h</file>
+      <file>$PROJ_DIR$\pin_defs.h</file>
+      <file>$PROJ_DIR$\input.h</file>
+      <file>$PROJ_DIR$\pwm.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1t-ec_nomul-n.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgtiny85.xcl</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1toim.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\iotiny85.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1t-ec_nomul-n.r90</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\frequency_detection.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 63 61 55 50 21 40 59 54 17 42 48 62 19 58 60 43 52</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 52 62 63 55 40 54 61 58 59 48 50 16 60 43 17 19 21 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\sonic_beacon.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 32 30 10 9 34 22 31 3 27 35 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\sonic_beacon.elf</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29 57 9 34 3 27 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 62 63 58 12 40 59 54 61 19</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 12 62 63 55 40 54 61 58 59 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 55 58 62 40 59 54 61</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62 63 55 40 54 61 58 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\sonic_beacon.a90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29 57 9 34 3 27 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\sonic_beacon.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 56 57 30 10 9 34 22 31 3 27 35 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 2 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\handlers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 60 16 17 48</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 48 16 60 43 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sonic_beacon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 19 51 52 55 16 46 49 58 45 39 12 14 63 40 59 54 61 60 43 17 44</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 44 52 62 63 55 40 54 61 58 59 45 46 39 51 16 60 43 17 12 49 14 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timeout_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 62 60 16 63 40 54 48 55 61 43 17 46 58</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 46 62 63 55 40 54 61 58 59 48 16 60 43 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\signal_detection.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 17 58 43 48 62 60 50 19 52 63 40 59 54 61 16 45</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 45 52 62 63 55 40 54 61 58 59 50 16 60 43 17 48 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\music.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 62 63 58 39 40 59 54 61 49 12</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39 62 63 55 40 54 61 58 59 49 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pwm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 43 62 55 51 60 48 16 63 40 59 54 61 49 17</file>
+        </tool>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 49 62 63 55 40 54 61 58 59 48 51 16 60 43 17</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

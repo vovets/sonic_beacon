@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\frequency_tuner.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\sonic_beacon.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
