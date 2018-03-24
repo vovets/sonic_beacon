@@ -130,6 +130,136 @@
       </data>
     </settings>
     <settings>
+      <name>ATMELICEAVR</name>
+      <archiveVersion>7</archiveVersion>
+      <data>
+        <version>4</version>
+        <wantNonLocal>1</wantNonLocal>
+        <debug>1</debug>
+        <option>
+          <name>OATMELICEDriver</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEExtraOptions</name>
+          <state></state>
+        </option>
+        <option>
+          <name>OATMELICEExtraOptionsCheck</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEDoLogfile</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICELogFile</name>
+          <state>$PROJ_DIR$\cspycomm.log</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceSuppLoad</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceConsCheck</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagFreqRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagFreqManually</name>
+          <state>100</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagFreq</name>
+          <version>0</version>
+          <state>8</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagDeviceBefore</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagDeviceAfter</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagInstrBitsBefore</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagInstrBitsAfter</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceDaisyChain</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagDebugTimers</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagDebugEeprom</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagDebugFuses</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIcedownloadToData</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagSoftwareBreak</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>ExitBreakpointP7</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>PutcharBreakpointP7</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>GetcharBreakpointP7</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICECommunication</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICECommunicationUsbEditId</name>
+          <state></state>
+        </option>
+        <option>
+          <name>OATMELICEDebugPort</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEDebugWireDebugPort</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEAVRJtagIcePreserveFlash</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICETPIDebugPort</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEUPDIDebugPort</name>
+          <state>1</state>
+        </option>
+      </data>
+    </settings>
+    <settings>
       <name>AVRONE</name>
       <archiveVersion>4</archiveVersion>
       <data>
@@ -578,9 +708,9 @@
     </settings>
     <settings>
       <name>JTAGICE3AVR</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>6</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -694,10 +824,6 @@
         </option>
         <option>
           <name>OJTAGICE3AVRJtagIcePreserveFlash</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OJTAGICE3DebuggerAttachToRunningTarget</name>
           <state>0</state>
         </option>
       </data>
@@ -1085,10 +1211,6 @@
         <loadFlag>0</loadFlag>
       </plugin>
       <plugin>
-        <file>$EW_DIR$\common\plugins\SymList\SymList.ENU.ewplugin</file>
-        <loadFlag>1</loadFlag>
-      </plugin>
-      <plugin>
         <file>$EW_DIR$\common\plugins\uCProbe\uCProbePlugin.ENU.ewplugin</file>
         <loadFlag>0</loadFlag>
       </plugin>
@@ -1121,7 +1243,7 @@
         </option>
         <option>
           <name>DDFile</name>
-          <state>$TOOLKIT_DIR$\Config\iotiny45.ddf</state>
+          <state>$TOOLKIT_DIR$\Config\iotiny85.ddf</state>
         </option>
         <option>
           <name>CInput</name>
@@ -1222,6 +1344,136 @@
       </data>
     </settings>
     <settings>
+      <name>ATMELICEAVR</name>
+      <archiveVersion>7</archiveVersion>
+      <data>
+        <version>4</version>
+        <wantNonLocal>1</wantNonLocal>
+        <debug>0</debug>
+        <option>
+          <name>OATMELICEDriver</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEExtraOptions</name>
+          <state></state>
+        </option>
+        <option>
+          <name>OATMELICEExtraOptionsCheck</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEDoLogfile</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICELogFile</name>
+          <state>$PROJ_DIR$\cspycomm.log</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceSuppLoad</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceConsCheck</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagFreqRadio</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagFreqManually</name>
+          <state>100</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagFreq</name>
+          <version>0</version>
+          <state>8</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagDeviceBefore</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagDeviceAfter</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagInstrBitsBefore</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceJtagInstrBitsAfter</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIceDaisyChain</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagDebugTimers</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagDebugEeprom</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagDebugFuses</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagIcedownloadToData</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEJtagSoftwareBreak</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>ExitBreakpointP7</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>PutcharBreakpointP7</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>GetcharBreakpointP7</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICECommunication</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICECommunicationUsbEditId</name>
+          <state></state>
+        </option>
+        <option>
+          <name>OATMELICEDebugPort</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICEDebugWireDebugPort</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEAVRJtagIcePreserveFlash</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>OATMELICETPIDebugPort</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>OATMELICEUPDIDebugPort</name>
+          <state>1</state>
+        </option>
+      </data>
+    </settings>
+    <settings>
       <name>AVRONE</name>
       <archiveVersion>4</archiveVersion>
       <data>
@@ -1670,9 +1922,9 @@
     </settings>
     <settings>
       <name>JTAGICE3AVR</name>
-      <archiveVersion>5</archiveVersion>
+      <archiveVersion>6</archiveVersion>
       <data>
-        <version>6</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1786,10 +2038,6 @@
         </option>
         <option>
           <name>OJTAGICE3AVRJtagIcePreserveFlash</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OJTAGICE3DebuggerAttachToRunningTarget</name>
           <state>0</state>
         </option>
       </data>
@@ -2175,10 +2423,6 @@
       <plugin>
         <file>$EW_DIR$\common\plugins\Orti\Orti.ENU.ewplugin</file>
         <loadFlag>0</loadFlag>
-      </plugin>
-      <plugin>
-        <file>$EW_DIR$\common\plugins\SymList\SymList.ENU.ewplugin</file>
-        <loadFlag>1</loadFlag>
       </plugin>
       <plugin>
         <file>$EW_DIR$\common\plugins\uCProbe\uCProbePlugin.ENU.ewplugin</file>
