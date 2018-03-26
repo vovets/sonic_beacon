@@ -27,3 +27,24 @@ Device pcb has two special pads for this purpose designated as **DEC** and **INC
 To adjust frequency it is needed to solder buttons from these pad to **GND** pad or use piece of wire or metallic tweezers or something similar. In the following we will refer to them as buttons for brevity.
 
 To enter calibration mode **DEC** button must be pressed upon powering device on. Device starts emitting continous tone. Frequency of the tone can be adjusted by pressing **INC** or **DEC** buttons. Adjusted frequency gets immediately stored in the eeprom. To exit this mode device needs to be powered off.
+
+## Implementation details
+
+### Fuses
+
+```
+SELFPRGEN = [ ]
+RSTDISBL = [ ]
+DWEN = [ ]
+SPIEN = [X]
+WDTON = [ ]
+EESAVE = [X]
+BODLEVEL = 1V8
+CKDIV8 = [ ]
+CKOUT = [ ]
+SUT_CKSEL = INTRCOSC_8MHZ_6CK_14CK_64MS
+
+EXTENDED = 0xFF (valid)
+HIGH = 0xD6 (valid)
+LOW = 0xE2 (valid)
+```
