@@ -1,4 +1,4 @@
-settings/**
-Release/**
-Debug/**
-*.dep
+firmware/settings/**
+firmware/Release/**
+firmware/Debug/**
+firmware/*.dep
