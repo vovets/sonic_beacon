@@ -2,3 +2,4 @@ firmware/settings/**
 firmware/Release/**
 firmware/Debug/**
 firmware/*.dep
+board/*.[lbs]#?
