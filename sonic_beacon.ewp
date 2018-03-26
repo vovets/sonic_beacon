@@ -132,7 +132,7 @@
         </option>
         <option>
           <name>RTDescription</name>
-          <state>Use the normal configuration of the C/EC++</state>
+          <state>Use the normal configuration of the C/C++</state>
           <state>runtime library. No locale interface,</state>
           <state>C locale, no file descriptor support,</state>
           <state>no multibytes in printf and scanf, and</state>
@@ -873,6 +873,7 @@
           <name>XExtraOptions</name>
           <state>-Ointel-standard,(CODE)=$EXE_DIR$\flash.hex</state>
           <state>-Ointel-standard,(XDATA)=$EXE_DIR$\eeprom.hex</state>
+          <state>-Oraw-binary,(CODE)=$EXE_DIR$\flash.bin</state>
         </option>
         <option>
           <name>IncludeSuppressed</name>
@@ -917,7 +918,7 @@
         <option>
           <name>ExtraOutputFormat</name>
           <version>11</version>
-          <state>22</state>
+          <state>57</state>
         </option>
         <option>
           <name>ExtraFormatVariant</name>
