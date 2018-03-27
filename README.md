@@ -78,3 +78,7 @@ EXTENDED = 0xFF
 HIGH = 0xD6
 LOW = 0xE2
 ```
+
+### Places of interest in source files
+1. [Where the throttle threshold is defined for PWM signal?](https://github.com/vovets/sonic_beacon/blob/433788d3e038b642e70308b3990e0a55145812b6/firmware/sonic_beacon.c#L87)
+1. [Where the throttle threshold is defined for Servo signal?](https://github.com/vovets/sonic_beacon/blob/433788d3e038b642e70308b3990e0a55145812b6/firmware/signal_detection.c#L192)
