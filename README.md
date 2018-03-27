@@ -20,7 +20,7 @@ Device has two modes of operation: auxiliary "calibration" which will be discuss
 
 ## Practice of operation ("normal" mode)
 1. Operator powers up model.
-1. Operator starts flying model. To do so he pushes the throttle up, so throttle gets higher than the threshold. In 3 seconds beacon arms.
+1. Operator starts flying model. To do so he pushes the throttle up, so throttle gets higher than the threshold. In 3 seconds beacon arms and emits two tones.
 1. In the unfortunate event that the model can not be sighted after landing because of grass or other obstacles operator zeroes the throttle (or failsafe does so). After 30 seconds beacon starts emitting beeps and that aids operator in locating model ~~crash~~landing site.
 
 ## Connections
@@ -33,6 +33,9 @@ Device pcb has two special pads for this purpose designated as **DEC** and **INC
 To adjust frequency it is needed to solder buttons from these pad to **GND** pad or use piece of wire or metallic tweezers or something similar. In the following we will refer to them as buttons for brevity.
 
 To enter calibration mode **DEC** button must be pressed upon powering device on. Device starts emitting continuous tone. Frequency of the tone can be adjusted by pressing **INC** or **DEC** buttons. Adjusted frequency gets immediately stored in the eeprom. To exit this mode device needs to be powered off.
+
+## Good practice
+It is highly recommeded that after installation on the model device undergoes full functionality test. **_Any propellers and blades must be removed from the model before starting any tests._**
 
 ## Implementation details
 
