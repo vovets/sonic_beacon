@@ -3,3 +3,5 @@ firmware/Release/**
 firmware/Debug/**
 firmware/*.dep
 board/*.[lbs]#?
+*.brd.lck
+*.sch.lck
