@@ -39,6 +39,7 @@ To enter calibration mode **DEC** button must be pressed upon powering device on
 ### Directory structure
 ```
 .
+├── doc          - schematics in pdf, images
 ├── board        - schematics, board, library for Eagle
 │   └── output   - Eagle output: pdf, tiff, etc.
 └── firmware     - software sources for IAR Embedded Workbench
@@ -48,6 +49,9 @@ To enter calibration mode **DEC** button must be pressed upon powering device on
     │   └── Obj
     └── settings - IAR settings, ignored by git
 ```
+
+### Schematics in pdf
+[Here.](doc/sonic_beacon.pdf)
 
 ### Components
 * MCU - ATtiny85-20, as firmware size is under 4k so ATtiny45-20 should also do. Uses 8 MHz internal RC clock which provides for stable operation at as low as 2.7V.
