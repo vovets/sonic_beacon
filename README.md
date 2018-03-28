@@ -82,3 +82,12 @@ LOW = 0xE2
 ### Places of interest in source files
 1. [Where the throttle threshold is defined for PWM signal?](https://github.com/vovets/sonic_beacon/blob/433788d3e038b642e70308b3990e0a55145812b6/firmware/sonic_beacon.c#L87)
 1. [Where the throttle threshold is defined for Servo signal?](https://github.com/vovets/sonic_beacon/blob/433788d3e038b642e70308b3990e0a55145812b6/firmware/signal_detection.c#L192)
+
+### Software versions
+Software versions with which board and firmware were developed.
+1. Eagle 7.5 or 7.7
+1. IAR Embedded Workbench 6.8
+
+### Cheap hardware/sofware for firmware flashing
+* [usbasp](http://www.fischl.de/usbasp/) - under $5 usb device for flashing AVR MCUs. Can be found on ebay, aliexpress, banggood and even hobbyking. 
+* [avrdude](https://www.nongnu.org/avrdude/) - command line software for flashing AVR MCUs. There are versions for Windows and GUI tools available.
